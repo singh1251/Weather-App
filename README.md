@@ -23,13 +23,13 @@ To get started with this project locally, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/singh1251/Weather-App.git
+   git clone https://github.com/singh1251/weather-app.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd Weather-App
+   cd weather-app
    ```
 
 3. **Install Dependencies**
