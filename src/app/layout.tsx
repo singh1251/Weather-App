@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="video" href="/clouds-1.mp4" type="video/mp4" />
+        <link rel="preload" as="fetch" href="/clouds-1.mp4" type="video/mp4" />
       </head>
       <body className="flex flex-col min-h-screen">
         {/* Video-background container */}

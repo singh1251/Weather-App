@@ -68,7 +68,7 @@ export default function WeatherInfo({ localityData }: WeatherInfoProps) {
   const currentDate = `${dayOfWeek}, ${monthName} ${day}, ${year}`;
 
   return (
-    <section className="mt-16 sm:mt-32">
+    <section className="my-10 sm:my-28">
       <section className="w-[90%] sm:w-[450px] mx-auto">
         <Card>
           <div className="relative">
