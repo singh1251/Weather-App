@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" as="video" href="/clouds-1.mp4" type="video/mp4" />
+      </head>
       <body className="flex flex-col min-h-screen">
         {/* Video-background container */}
         <div className="fixed top-0 left-0 w-full h-full overflow-hidden z-[-1]">
@@ -26,6 +29,7 @@ export default function RootLayout({
             loop
             muted
             playsInline
+            poster="/video-poster.png"
             className="object-cover w-full h-full"
           />
         </div>
